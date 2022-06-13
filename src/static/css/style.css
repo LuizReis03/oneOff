@@ -1,0 +1,220 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*LOGIN*/
+.box-fundo{
+    text-align: center;
+}
+
+.arteLogin{
+    margin: 1% 0 3% 0;
+    width: 30%;
+}
+
+.formulario-login{
+    background-color: #2C2A2A;
+    max-width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    border-radius: 7px;
+    margin-bottom: 1%;
+    font-weight: 600;
+}
+
+.titulo-campo-login{
+    font-size: 2.5vh;
+    margin-bottom: 1%;
+    color: #CECBCB;
+    text-align: left;
+    margin-left: 8%;
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+
+.campo-login{
+    border: none;
+    background-color: #CECBCB;
+    width: 80%;
+    max-width: 80%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    padding: 3% 2%;
+}
+
+.btn-login{
+    background-color: #CECBCB;
+    border: none;
+    width: 70%;
+    max-width: 70%;
+    padding: 3% 2%;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    border-radius: 5px;
+    color:#2C2A2A;
+    font-weight: 700;
+    font-size: 1.0vw;
+}
+
+.btn-login:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-weight: 600;
+    color: #2C2A2A;
+}
+
+.btn-login:hover{
+    background-color: #adadad;
+    color:#161616;
+    transition: 0.6s;
+}
+
+.div-link-login{
+    max-width: 30%;
+    margin: auto;
+    justify-content: center;
+    padding: 0.2% 1.9%;
+    border-radius: 7px;
+    border: #2C2A2A solid 2px;
+    display: flex;
+    align-items: center;
+}
+
+.p-link-login{
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.link-login{
+    margin-left: 2px;
+    font-weight: 500;
+    color: #D00B2F;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+.link-login:hover{
+    color: #b41331;
+}
+
+.erroLogin{
+    color: #b41331;
+    font-size: 0.9vw;
+    text-align: left;
+    width: 46%;
+    margin-left: 8%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*TELA-CADASTRO*/
+.titulo-cad{
+    font-size: 1.9vw;
+    margin-top: 5%;
+}
+
+.formulario-cad{
+    background-color: #2C2A2A;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    border-radius: 7px;
+    margin-bottom: 1%;
+}
+
+.campo-cad{
+    border: none;
+    background-color: #CECBCB;
+    width: 80%;
+    max-width: 80%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    padding: 2.2% 2%;
+}
+
+.controla-cad{
+    padding: 0px;
+    max-width: 86.5%;
+    display: flex;
+    margin-left: 8%;
+    justify-content: space-evenly;
+}
+
+.controla-campo-cpf{
+    display: block;
+    text-align: left;
+    width: 50%;
+}
+
+.controla-campo-senha{
+    display: block;
+    text-align: left;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.campo-cad-menor{
+    border: none;
+    background-color: #CECBCB;
+    width: 90%;
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    padding: 5.2% 2%;
+    margin-left: 0;
+}
+
+.titulo-campo-cad-menor{
+    font-size: 2.5vh;
+    margin-bottom: 1%;
+    color: #CECBCB;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+
+.obs-cad{
+    text-align: left;
+    margin-left: 7.7%;
+    color: #D00B2F;
+    font-size: 0.8vw;
+    display: none;
+}
+
+.btn-cad{
+    background-color: #CECBCB;
+    border: none;
+    width: 70%;
+    max-width: 70%;
+    padding: 3% 2%;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    border-radius: 5px;
+    color:#2C2A2A;
+    font-weight: 700;
+    font-size: 1.0vw;
+}
+
+/*ERRO*/
+.erro-mensagem{
+    color: #b41331;
+    width: 50%;
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 0;
+    font-size: 1vw;
+}
+
+.erro-mensagem-menor{
+    color: #b41331;
+    width: 94%;
+    text-align: left;
+    margin-top: 0;
+    font-size: 1vw;
+}

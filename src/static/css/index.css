@@ -1,0 +1,204 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+header{
+    background-color: #D00B2F;
+    width: 15%;
+    max-width: 15%;
+    padding: 5% 5%;
+    height: auto;
+    position: fixed;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 12%;
+    margin-bottom: 25%;
+}
+
+.div-link-header{
+    margin-top: 20%;
+    margin-bottom: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.link-header{
+    text-decoration: none;
+    color: white;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    margin-bottom: 10%;
+    width: 75%;
+}
+
+.link-header:hover{
+    color: #e0e0e0;
+}
+
+.icone{
+    width:9%;
+    margin-right: 3%;
+}
+
+.icone-sair{
+    width: 6%;
+    margin-right: 3%;
+}
+
+.sair-header{
+    text-decoration: none;
+    color: white;
+    margin-left: 2%;
+    align-items: center;
+    display: flex;
+    transition: 0.3s;
+}
+
+.sair-header:hover{
+    color: #b9b9b9;
+}
+
+/*INSERE PONTO*/
+.div-controla{
+    width: 65%;
+    max-width: 65%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.titulo-controla{
+    font-size: 2.2vw;
+    margin-top: 0;
+}
+
+.formulario-ponto{
+    background-color: #2C2A2A;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    border-radius: 7px;
+    margin-bottom: 1%;
+}
+
+.titulo-campo-ponto{
+    margin-bottom: 1%;
+    color: #CECBCB;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.1vw;
+    margin-left: 8%;
+}
+
+.campo-ponto{
+    border: none;
+    background-color: #CECBCB;
+    width: 90%;
+    max-width: 80%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    padding: 2.2% 2%;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-weight: 600;
+    color: #2C2A2A;
+}
+
+.btn-ponto{
+    background-color: #CECBCB;
+    border: none;
+    width: 70%;
+    max-width: 70%;
+    padding: 3% 2%;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    border-radius: 5px;
+    color:#2C2A2A;
+    font-weight: 700;
+    font-size: 1.0vw;
+}
+
+.btn-ponto:hover{
+    background-color: #adadad;
+    color:#161616;
+    transition: 0.6s;
+}
+
+/*RELATORIO*/
+.box-relatorio{
+    background-color: #2C2A2A;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    border-radius: 7px;
+    margin-bottom: 1%;
+}
+
+tr{
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+th{
+    color: #CECBCB;
+}
+
+td{
+    flex-wrap: wrap;
+    color: #CECBCB;
+    width: 10%;
+    max-width: 10%;
+    margin-bottom: 10px;
+}
+
+.descricao{
+    text-align: left;
+    width: 20%;
+    max-width: 20%;
+}
+
+.div-pesquisa{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 1%;
+    margin-left: auto;
+}
+
+.titulo-busca{
+    margin-right: 5%;
+}
+
+.busca-relatorio{
+    border: none;
+    background-color: #CECBCB;
+    width: 25%;
+    max-width: 25%;
+    border-radius: 5px;
+    padding: 1% 1%;
+    margin-right: 5%;
+}
